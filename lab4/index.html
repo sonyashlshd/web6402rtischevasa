@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Фан-страница Андрея Волобуева (Soltwine)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Добро пожаловать на фан-страницу Андрея Soltwine Волобуева</h1>
+    </header>
+
+    <nav class="nav">
+        <a href="index.html">Главная</a> | 
+        <a href="discography.html">Дискография</a> | 
+        <a href="telegram.html">Обновления телеграм-канала Андрея</a> | 
+        <a href="concert.html">Расписание концертов</a>
+    </nav>
+
+    <div class="grid-container">
+        <div class="grid-item intro">
+            <p>Этот сайт посвящён творчеству Андрея Волобуева, известного под псевдонимом Soltwine, и моей большой любви к нему. Его песни помогают мне пережить все трудности, с ними я могу и веселиться, и плакать. Я хочу, чтобы каждый мог проникнуться моеё любовью к нему.</p>
+            <p>Спасибо.</p>
+        </div>
+
+        <div class="grid-item additional-info">
+            <h2>Дополнительная информация</h2>
+            <p>Андрей Волобуев (родился 8 августа 2000 года), более известный как Soltwine, — инди-рок-исполнитель из Белгорода.</p>
+            <p>Начал музыкальную карьеру в 2019 году. Первую популярность получил после выхода трека «Ставь чайник».</p>
+            <p>Следите за обновлениями!</p>
+            <form id="suggestion-form">
+                <label for="suggestion">Ваше предложение по развитию сайта:</label><br>
+                <textarea id="suggestion" name="suggestion" rows="4" cols="50" placeholder="Введите ваше предложение здесь..." required></textarea><br>
+                <button type="submit">Отправить</button>
+            </form>
+            <div id="response-message"></div>
+        </div>
+
+        <div class="grid-item images">
+            <p>Ниже вы можете увидеть моё фото с концерта:</p>
+            <img src="я.jpg" alt="Расписание концертов">
+            <img src="он.jpg" alt="Расписание концертов">
+        </div>
+
+        <div class="grid-item quote">
+            <h3>Цитата</h3>
+            <h4>"Поплакали, покакали, как говорится, и поехали дальше."</h4>
+            <p id="right">© Андрей Волобуев</p>
+        </div>
+
+        <div class="grid-item video">
+            <video controls width="320" height="240">
+                <source src="видео.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+
+        <h3>Отправленные предложения:</h3>
+        <ul id="suggestion-list"></ul> <!-- Список для отображения предложений -->
+
+    </div>
+
+    <!-- Подключаем JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
