@@ -1,0 +1,89 @@
+div p.date {
+
+font-style: italic;
+text-align: center;
+
+}
+.album {
+
+font-weight: bold;
+font-size: large;
+text-align: center;
+}
+
+body {
+
+background: url("https://avatars.yandex.net/get-music-content/10092855/2ae2ff11.a.27832273-1/m1000x1000?webp=false");
+font-family: montserrat;
+
+}
+div.center > ul {
+display: inline-block;
+text-align: left;
+font-weight: 600;
+font-size: large;
+
+}
+div h2.year {
+text-align: center;
+}
+.center {
+text-align: center;
+}
+
+div {
+background: rgba(255, 255, 255, 0.6);
+}
+header {
+background: rgba(255, 255, 255, 0.6);
+text-align: center;
+}
+.title {
+font-weight: 600;
+}
+nav {
+background: rgba(255, 255, 255, 0.6);
+text-align: center;
+font-weight: 600;
+font-size: large;
+
+}
+
+table.center {
+margin: auto;
+}
+.bold {
+font-weight: 600;
+}
+table {
+border-spacing: 20px;
+border-collapse: collapse;
+}
+td {
+padding-right: 40px;
+}
+
+table.center_big{
+margin: auto;
+font-size: large;
+}
+tr { 
+border: solid;
+border-width: 1px 0;
+}
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+p#small img {
+width: 370px}
+
+p#normal-c {
+text-align: center;
+}
+
+p#normal-c img {
+width: 600px}
+
